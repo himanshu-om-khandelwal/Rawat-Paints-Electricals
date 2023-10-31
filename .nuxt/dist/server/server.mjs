@@ -1,1 +1,0 @@
-export { default } from "file:///C:/Users/Himanshu%20Khandelwal/Downloads/Engineering/Rawat%20Paints%20And%20Electricals/node_modules/.pnpm/@nuxt+vite-builder@3.8.0_vue@3.3.4/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

@@ -1,10 +1,10 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from 'C:/Users/Himanshu Khandelwal/Downloads/Engineering/Rawat Paints And Electricals/node_modules/.pnpm/defu@6.1.2/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/Himanshu Khandelwal/Downloads/Engineering/Personal/Rawat-Paints-Electricals/node_modules/.pnpm/defu@6.1.2/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {
   "nuxt": {
-    "buildId": "test"
+    "buildId": "ebef3621-e073-45c6-8842-1563f3eec558"
   },
   "ui": {
     "primary": "green",
