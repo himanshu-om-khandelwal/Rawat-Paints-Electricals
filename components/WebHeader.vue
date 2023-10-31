@@ -1,0 +1,19 @@
+<script></script>
+<template>
+    <div class="bg-gradient-to-r from-green-600 via-yellow-600 to-orange-600 min-h-25 grid content-center grid-flow-col">
+        <div class="mx-5 my-auto">
+            <h3 class="text-4xl text-white">Rawat Paints & Electricals</h3>
+        </div>
+        <div class="ml-auto mr-5 my-3 grid grid-flow-row">
+            <div class="justify-self-center">
+                <span class="text-2xl">Mukesh Rawat: <b><a href="tel:6377136015">6377136015</a></b></span>
+            </div>
+            
+            <div class="grid grid-flow-col">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/free-whatsapp-43-189795.png?f=webp&w=256" alt="" class="h-7 w-7 my-auto"/>
+                <span class="text-2xl ml-3"><b>: <a href="tel:9461105921">9461105921</a> / <a href="tel:9530354256">9530354256</a></b></span>
+            </div>
+        </div>
+        
+    </div>
+</template>
