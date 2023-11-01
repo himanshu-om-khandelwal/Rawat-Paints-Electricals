@@ -12,4 +12,5 @@ export { useTimer } from '../node_modules/.pnpm/@nuxt+ui@2.9.0_vue@3.3.4_webpack
 export { useToast } from '../node_modules/.pnpm/@nuxt+ui@2.9.0_vue@3.3.4_webpack@5.89.0/node_modules/@nuxt/ui/dist/runtime/composables/useToast';
 export { useUI } from '../node_modules/.pnpm/@nuxt+ui@2.9.0_vue@3.3.4_webpack@5.89.0/node_modules/@nuxt/ui/dist/runtime/composables/useUI';
 export { useColorMode } from '../node_modules/.pnpm/@nuxtjs+color-mode@3.3.0/node_modules/@nuxtjs/color-mode/dist/runtime/composables';
+export { useNuxtDevTools } from '../node_modules/.pnpm/@nuxt+devtools@1.0.0_nuxt@3.8.0_vite@4.5.0/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/.pnpm/nuxt@3.8.0_vite@4.5.0/node_modules/nuxt/dist/pages/runtime/composables';

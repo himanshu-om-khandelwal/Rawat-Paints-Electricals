@@ -4,7 +4,7 @@ import { defuFn } from 'C:/Users/Himanshu Khandelwal/Downloads/Engineering/Perso
 
 const inlineConfig = {
   "nuxt": {
-    "buildId": "ebef3621-e073-45c6-8842-1563f3eec558"
+    "buildId": "test"
   },
   "ui": {
     "primary": "green",

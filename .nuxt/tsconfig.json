@@ -47,6 +47,9 @@
       "assets": [
         "../assets"
       ],
+      "assets/*": [
+        "../assets/*"
+      ],
       "public": [
         "../public"
       ],
@@ -103,21 +106,21 @@
   "include": [
     "./nuxt.d.ts",
     "../**/*",
-    "../@nuxtjs/color-mode/runtime",
-    "../@nuxtjs/tailwindcss/runtime",
+    "../node_modules/.pnpm/@nuxtjs+color-mode@3.3.0/node_modules/@nuxtjs/color-mode/runtime",
+    "../node_modules/.pnpm/@nuxtjs+tailwindcss@6.8.0_webpack@5.89.0/node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/.pnpm/@nuxt+ui@2.9.0_vue@3.3.4_webpack@5.89.0/node_modules/@nuxt/ui/runtime",
     "../node_modules/.pnpm/@nuxt+devtools@1.0.0_nuxt@3.8.0_vite@4.5.0/node_modules/@nuxt/devtools/runtime",
-    "../@nuxt/telemetry/runtime",
+    "../node_modules/.pnpm/@nuxt+telemetry@2.5.2/node_modules/@nuxt/telemetry/runtime",
     ".."
   ],
   "exclude": [
     "../node_modules",
     "../node_modules/.pnpm/nuxt@3.8.0_vite@4.5.0/node_modules/nuxt/node_modules",
-    "../@nuxtjs/color-mode/runtime/server",
-    "../@nuxtjs/tailwindcss/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+color-mode@3.3.0/node_modules/@nuxtjs/color-mode/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+tailwindcss@6.8.0_webpack@5.89.0/node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/.pnpm/@nuxt+ui@2.9.0_vue@3.3.4_webpack@5.89.0/node_modules/@nuxt/ui/runtime/server",
     "../node_modules/.pnpm/@nuxt+devtools@1.0.0_nuxt@3.8.0_vite@4.5.0/node_modules/@nuxt/devtools/runtime/server",
-    "../@nuxt/telemetry/runtime/server",
+    "../node_modules/.pnpm/@nuxt+telemetry@2.5.2/node_modules/@nuxt/telemetry/runtime/server",
     "../dist",
     "../.output"
   ]
