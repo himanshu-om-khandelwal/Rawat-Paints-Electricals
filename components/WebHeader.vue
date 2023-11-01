@@ -6,14 +6,17 @@
         </div>
         <div class="ml-auto mr-5 my-3 grid grid-flow-row">
             <div class="justify-self-center">
-                <span class="text-2xl">Mukesh Rawat: <b><a href="tel:6377136015">6377136015</a></b></span>
+                <span class="text-xl">Mukesh Rawat: <b><a href="tel:6377136015">6377136015</a></b></span>
             </div>
             
             <div class="grid grid-flow-col">
-                <img src="https://cdn.iconscout.com/icon/free/png-512/free-whatsapp-43-189795.png?f=webp&w=256" alt="" class="h-7 w-7 my-auto"/>
-                <span class="text-2xl ml-3"><b>: <a href="tel:9461105921">9461105921</a> / <a href="tel:9530354256">9530354256</a></b></span>
+                <div class="w-7 h-7">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-whatsapp-43-189795.png?f=webp&w=256" alt="" class="my-auto"/>
+                </div>
+                <div>
+                    <span class="text-xl ml-3"><b><a href="tel:9461105921">9461105921</a> / <a href="tel:9530354256">9530354256</a></b></span>
+                </div>
             </div>
         </div>
-        
     </div>
 </template>
