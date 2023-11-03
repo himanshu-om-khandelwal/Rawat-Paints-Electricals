@@ -1,47 +1,59 @@
 <script setup lang="ts">
 const products = ref([
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-uno-asian-paints.png',
-        title: 'Distemper',
-        titleHindi: ''
+        img: '/img/shalimar.jpg',
     },
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-sparc-advanced-packshot-asian-paints.png',
-        title: 'Tractor Sparc Advanced',
-        titleHindi: ''
+        img: '/img/asian.jpg',
     },
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-sparc-advanced-asian-paints.png',
-        title: 'Ace Sparc Advanced',
-        titleHindi: ''
+        img: '/img/berger.jpg',
     },
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-shyne-asian-paints.png',
-        title: 'Ace Shyne',
-        titleHindi: ''
+        img: '/img/putty.png',
     },
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/metals-trucare-red-oxide-metal-primer-asian-paints.png',
-        title: 'Red Oxide Metal Primer',
-        titleHindi: ''
+        img: '/img/sakarni.png',
     },
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-exterior-emulsion-asian-paints.png',
-        title: 'Ace Exterior Emulsion',
-        titleHindi: ''
+        img: '/img/limestone.png',
     },
     {
-        img: 'https://static.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-shyne-dust-proof-packshot-asian-paints.png',
-        title: 'Apex Shyne',
-        titleHindi: ''
+        img: '/img/brush_roller.jpg',
     },
+    {
+        img: '/img/fevicol.jpg',
+    },
+    {
+        img: '/img/ultramarine_blue.jpg'
+    },
+    {
+        img: '/img/modulur_series.png',
+    },
+    {
+        img: '/img/extension_board.jpg'
+    },
+    {
+        img: '/img/emery_paper.jpg'
+    }
 ])
 </script>
 
 <template>
-    <div class="flex flex-wrap gap-5 p-3 justify-center">
-        <div v-for="product in products">
-            <Product :img="product.img" :title="product.title" :titleHindi="product.titleHindi"/>
+    <div class="flex justify-center">
+        <div class="flex flex-col max-w-fit">
+            <div class="pl-3 flex justify-center mb-10">
+                <div class="max-w-fit px-6 py-1 bg-gradient-to-r from-green-600 via-yellow-600 to-orange-600 rounded-lg">
+                    <span class="text-3xl font-bold">We sale</span>
+                </div>
+                
+            </div>
+            <div class="flex flex-wrap gap-5 p-3 justify-center">
+                <div v-for="product in products">
+                    <Product :img="product.img"/>
+                </div>
+            </div>
         </div>
     </div>
+    
 </template>

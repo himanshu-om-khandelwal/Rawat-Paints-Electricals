@@ -2,15 +2,23 @@
 </script>
 
 <template>
-    <div>
+    <div class="flex flex-col min-h-screen flex-grow">
+        <!-- Header -->
         <div>
             <WebHeader />
         </div>
-        <div>
+
+        <!-- Main content -->
+        <div class="flex-1">
             <LangToggle />
+            <div>
+                <Products />
+            </div>
         </div>
-        <div>
-            <Products />
+
+        <!-- Footer -->
+        <div class="mt-10">
+            <WebFooter />
         </div>
     </div>
 </template>
