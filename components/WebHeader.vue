@@ -2,11 +2,11 @@
 <template>
     <div class="bg-gradient-to-r from-green-600 via-yellow-600 to-orange-600 grid content-center grid-flow-col">
         <div class="mx-5 my-auto">
-            <h3 class="text-4xl text-white">
-                <a href="/">
-                    Rawat Paints & Electricals
-                </a>
-            </h3>
+            <a href="/">
+                <div class="w-24 h-24 m-1 p-1">
+                    <img src="/img/logo.png" class="rounded-full "/>
+                </div>
+            </a>
         </div>
         <div class="ml-auto mr-5 my-3 grid grid-flow-row">
             <div class="justify-self-center">
